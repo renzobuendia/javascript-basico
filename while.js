@@ -5,6 +5,7 @@ function saludarEstudiantes(estudiante){
 }
 
 while (estudiantes.length > 0) {
+    console.log(estudiantes);
     var estudiante = estudiantes.shift();
     saludarEstudiantes(estudiante);
 }
